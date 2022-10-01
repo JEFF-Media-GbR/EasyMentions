@@ -1,0 +1,14 @@
+# The prefix required to mention players. For example, if set to "@", players can be mentioned by typing "@PlayerName"
+# If set to "", players can be mentioned by simply typing their name.
+prefix: "@"
+
+# When set to true, players must type the full player name to mention someone.
+# When set to false, players can also type only part of the name, e.g. "mfn" would be enough to mention "mfnalex"
+# When "prefix" is set to an empty string, this setting is ignored
+exact-names: false
+
+# The format to use for mentions.
+# Placeholders:
+# {player} - The player's name
+# {displayname} - The player's display name
+mention-format: "&7[&b{displayname}&7]"

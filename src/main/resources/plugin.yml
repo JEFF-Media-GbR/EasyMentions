@@ -1,0 +1,8 @@
+name: EasyMentions
+version: ${project.version}
+api-version: 1.13
+main: com.jeff_media.easymentions.EasyMentions
+description: "Mention players in chat"
+authors:
+  - JEFF Media GbR
+  - mfnalex
